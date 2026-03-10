@@ -1,0 +1,10 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the complete landing page structure with Header, Hero, About, and Footer components.",
+  "frontend/src/components/Header.tsx": "Sticky header component with Trouthstem logo, responsive navigation menu, and smooth scroll functionality to page sections.",
+  "frontend/src/components/Hero.tsx": "Hero section component featuring the generated background image with gradient overlay and prominent welcome message.",
+  "frontend/src/components/About.tsx": "About section component with introductory content about Trouthstem, including three feature cards highlighting core values.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright information and caffeine.ai attribution with proper UTM tracking parameters.",
+  "frontend/src/index.css": "Global styles with OKLCH-based warm earth tone color system (terracotta, sage green, cream) for both light and dark modes, plus typography hierarchy.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom font families (Inter, Merriweather) and soft shadow utilities to support the design system.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file for future React Query hooks when backend functionality is added."
+}

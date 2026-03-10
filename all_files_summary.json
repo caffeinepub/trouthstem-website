@@ -1,0 +1,19 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no functionality implemented.",
+  "feature_evidence.json": "Feature evidence report documenting four completed features: landing page structure, visual design with warm earth tones, navigation menu, and about section.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing the landing page components, styling system, and configuration.",
+  "frontend/index.css": "Tailwind base styles with CSS custom properties defining a neutral grayscale color system for light and dark modes using OKLCH color space.",
+  "frontend/index.html": "HTML entry point with root div and module script reference to main.tsx.",
+  "frontend/src/App.tsx": "Main React component rendering the full page layout with Header, Hero, About, and Footer components.",
+  "frontend/src/components/About.tsx": "About section component with introductory text about Trouthstem and three feature cards highlighting core values (Authentic, Transparent, Community).",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright, year, and caffeine.ai attribution with UTM tracking parameters.",
+  "frontend/src/components/Header.tsx": "Sticky header with logo, navigation menu, mobile hamburger menu, and smooth scroll functionality to page sections.",
+  "frontend/src/components/Hero.tsx": "Hero section with background image, gradient overlay, and welcome message featuring the Trouthstem brand.",
+  "frontend/src/hooks/useActor.ts": "React hook managing ICP backend actor creation with authentication support, query invalidation, and anonymous/authenticated actor switching.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context and hook providing Internet Identity authentication with login, logout, and identity state management.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file for future React Query hooks when backend methods are implemented.",
+  "frontend/src/index.css": "Global styles with warm earth tone color system (terracotta, sage green, cream) in OKLCH format for light and dark modes, plus typography hierarchy.",
+  "frontend/src/main.tsx": "React application entry point setting up QueryClient, InternetIdentityProvider, and rendering the App component.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration file defining custom color schemes using OKLCH color space, typography settings with Inter and Merriweather fonts, container queries, animations, and extended theme properties including sidebar, chart, and semantic color tokens.",
+  "project_state.json": "Project state file tracking the Trouthstem website build with completed features including landing page, navigation, about section, and visual design using warm earth tones; includes image requirements and one pending feature request."
+}

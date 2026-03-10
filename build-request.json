@@ -1,0 +1,85 @@
+{
+  "kind": "build_request",
+  "title": "Create Trouthstem website",
+  "projectName": "Trouthstem",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a landing page for Trouthstem with a header, hero section, and main content area",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "i want to create a trouthstem website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Landing page displays with header navigation",
+        "Hero section is visually prominent",
+        "Content area is present and properly styled"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Implement a cohesive visual design with a modern, clean aesthetic using warm earth tones (terracotta, sage green, cream) with clear typography hierarchy",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color palette uses warm earth tones consistently throughout the site",
+        "Typography hierarchy is clear with distinct heading and body text styles",
+        "Overall design feels modern and professional"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a basic navigation menu with links to main sections of the site",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Navigation menu displays in the header",
+        "Navigation links are functional and navigate to appropriate sections",
+        "Menu is responsive and works on mobile devices"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Add an about section explaining what Trouthstem is",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "About section is clearly visible on the landing page",
+        "Content provides introductory information about Trouthstem",
+        "Section is well-formatted and readable"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "User authentication or login system",
+    "Backend data storage or API endpoints",
+    "E-commerce or payment functionality",
+    "Multi-page routing beyond single page sections"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Abstract geometric pattern background with earth tones for hero section (hero-background.dim_1920x1080.png)",
+      "Simple modern logo mark for Trouthstem brand (trouthstem-logo.dim_200x200.png)"
+    ],
+    "edits": []
+  }
+}
